@@ -1,8 +1,36 @@
 {
   "name": "pi-orch",
-  "private": true,
   "version": "0.1.0",
-  "description": "Persistent two-tier orchestrator extension for pi",
-  "pi": { "extensions": ["./index.ts"] },
-  "peerDependencies": { "@earendil-works/pi-coding-agent": "*", "@earendil-works/pi-tui": "*", "typebox": "*" }
+  "description": "Persistent worker orchestration for Pi",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "orchestrator",
+    "agents"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hetsaraiya/pi-orch.git"
+  },
+  "homepage": "https://github.com/hetsaraiya/pi-orch#readme",
+  "bugs": {
+    "url": "https://github.com/hetsaraiya/pi-orch/issues"
+  },
+  "files": [
+    "index.ts",
+    "model-picker.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
 }

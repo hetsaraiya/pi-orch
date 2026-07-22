@@ -7,6 +7,12 @@ Pi keeps its normal coding tools while gaining asynchronous workers with persist
 ## Install
 
 ```bash
+pi install npm:pi-orch
+```
+
+Alternatively, install from GitHub:
+
+```bash
 pi install git:github.com/hetsaraiya/pi-orch
 ```
 
@@ -46,3 +52,7 @@ The model picker uses Pi's scoped models from `--models`, saved `enabledModels`,
 Workers share the current working tree. Assign non-overlapping scopes when running workers concurrently.
 
 Pi extensions run with full system permissions. Review the source before installation.
+
+## License
+
+MIT
